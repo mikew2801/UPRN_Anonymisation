@@ -29,7 +29,7 @@ df = pd.read_csv(filename)
 from sqlalchemy import create_engine
 
 import os
-engine = create_engine("mysql+mysqldb://root:"+'linkdoom56'+"@localhost/WRA_Data")
+engine = create_engine("mysql+mysqldb://root:"+'psswd'+"@localhost/WRA_Data")
 
 files = os.listdir("/home/michael/WRA_Data_Test/To_Upload/Final")
 
