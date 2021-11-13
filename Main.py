@@ -4,7 +4,7 @@ import sqlparse
 
 ## Establish connection to MySQL server
 
-db = MySQLdb.connect(host = "127.0.0.1", user = "root", passwd = "linkdoom56")
+db = MySQLdb.connect(host = "127.0.0.1", user = "root", passwd = "psswd")
 
 cur = db.cursor()
 
