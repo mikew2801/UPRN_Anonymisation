@@ -6,7 +6,7 @@ import hashlib as hl
 
 ## Establish connection to MySQL server
 
-db = MySQLdb.connect(host = "127.0.0.1", user = "root", passwd = "linkdoom56")
+db = MySQLdb.connect(host = "127.0.0.1", user = "root", passwd = "randompswd")
 cur = db.cursor()
 
 # Read the existing tables into memory as dataframes, drop all address data, hash the UPRNs and upload the new database to the server
